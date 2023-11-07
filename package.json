@@ -1,0 +1,26 @@
+{
+  "name": "practica_nodejs",
+  "version": "1.0.0",
+  "description": "Practica de API Rest con autenticación JWT",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Arian Josafat Hidalgo Ordoñez",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.5.43",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.5.2"
+  }
+}
